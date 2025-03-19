@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Auto huelms",
+  "description": "lachong extensions",
+  "version": "10.0",
+  "content_scripts": [
+    {
+      "matches": ["https://lachong.huelms.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
